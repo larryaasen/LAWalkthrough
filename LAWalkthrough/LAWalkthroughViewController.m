@@ -95,6 +95,7 @@
   if (useDefaultNextButton)
   {
     self.nextButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+    self.nextButton.frame = CGRectMake(0, 0, self.nextButton.frame.size.width+20, self.nextButton.frame.size.height);
   }
   else
   {

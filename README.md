@@ -35,6 +35,11 @@ walkthrough.nextButtonText = nil;
 [self.view addSubview:walkthrough.view];
 ```
 
+Screenshot from this example:<br>
+<img src="Examples/iOS_Simulator_Screen_shot1.png" alt="LAWalkthrough" title="LAWalkthrough" width="260">
+
+<p></p>
+
 ### Display a walkthrough with XIB views and a background image
 
 ``` objective-c
@@ -55,6 +60,11 @@ walkthrough.nextButtonText = @"Next >";
 [self addChildViewController:walkthrough];
 [self.view addSubview:walkthrough.view];
 ```
+
+Screenshot from this example:<br>
+<img src="Examples/iOS_Simulator_Screen_shot2.png" alt="LAWalkthrough" title="LAWalkthrough" width="260">
+
+<p></p>
 
 ## Requirements
 
